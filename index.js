@@ -85,7 +85,7 @@ function calculatePayroll(arrayOfEmployeeRecords){
 arrayOfEmployeeRecords.forEach(employee =>{
   total += allWagesFor.call(employee);
 })
-  
+
     return total
 
 }
